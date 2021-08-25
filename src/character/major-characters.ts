@@ -318,7 +318,7 @@ export const major_characters: Character[] = [
     arcanum_rank: undefined,
   },
   {
-    id: 22,
+    id: 23,
     name: 'Abenthy',
     age: undefined,
     description:
