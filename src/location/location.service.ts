@@ -12,7 +12,7 @@ export class LocationService {
     return [
       ...this.locations,
       {
-        id: this.locations.length,
+        id: this.locations.length + 1,
         ...createLocationDto,
       },
     ];

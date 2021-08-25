@@ -12,7 +12,7 @@ export class CharacterService {
     return [
       ...this.characters,
       {
-        id: this.characters.length,
+        id: this.characters.length + 1,
         ...createCharacterDto,
       },
     ];

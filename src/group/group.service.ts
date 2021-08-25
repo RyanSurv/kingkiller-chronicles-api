@@ -12,7 +12,7 @@ export class GroupService {
     return [
       ...this.groups,
       {
-        id: this.groups.length,
+        id: this.groups.length + 1,
         ...createGroupDto,
       },
     ];

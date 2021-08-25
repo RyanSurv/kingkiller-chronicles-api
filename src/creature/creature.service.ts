@@ -12,7 +12,7 @@ export class CreatureService {
     return [
       ...this.creatures,
       {
-        id: this.creatures.length,
+        id: this.creatures.length + 1,
         ...createCreatureDto,
       },
     ];
